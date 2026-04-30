@@ -1,24 +1,20 @@
-Algoritmo Calculadora
-	Definir num1, num2, resultado Como Real
-	
-	// Sección de Suma
-	Escribir "--- SUMA ---"
-	Escribir "Ingrese el primer número:"
-	Leer num1
-	Escribir "Ingrese el segundo número:"
-	Leer num2
-	resultado <- num1 + num2
-	Escribir "El resultado de la suma es: ", resultado
-	
-	Escribir "" // Salto de línea
-	
-	// Sección de Resta
-	Escribir "--- RESTA ---"
-	Escribir "Ingrese el primer número:"
-	Leer num1
-	Escribir "Ingrese el segundo número:"
-	Leer num2
-	resultado <- num1 - num2
-	Escribir "El resultado de la resta es: ", resultado
-	
+Proceso sin_titulo
+		Definir num1, num2, resultado Como Real;
+		Escribir "--- SUMA ---";
+		Escribir "Ingrese el primer número:";
+		Leer num1;
+		Escribir "Ingrese el segundo número:";
+		Leer num2;
+		resultado <- num1 + num2;
+		Escribir "El resultado de la suma es: ", resultado;
+		
+		Escribir "";
+		Escribir "--- RESTA ---";
+		Escribir "Ingrese el primer número:";
+		Leer num1;
+		Escribir "Ingrese el segundo número:";
+		Leer num2;
+		resultado <- num1 - num2;
+		Escribir "El resultado de la resta es: ", resultado;
+		
 FinAlgoritmo
